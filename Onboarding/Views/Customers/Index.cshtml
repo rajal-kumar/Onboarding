@@ -1,0 +1,12 @@
+﻿@model IEnumerable<Onboarding.Models.Customer>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div id='customer'></div>
+
+@section Scripts{
+    <script src="~/Scripts/react/dist/Customer.bundle.js"></script>
+}
